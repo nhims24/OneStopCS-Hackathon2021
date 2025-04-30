@@ -1,0 +1,142 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
+
+p,
+h1,
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.welcome,
+.brandname {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-link {
+  text-align: left;
+  margin-left: 50px;
+  font-weight: 700;
+}
+
+/* COURSES Horizontal Scroll */
+.scrolling-wrapper {
+  overflow-x: auto;
+}
+.card-2 {
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+}
+#course1 {
+  background: linear-gradient(
+    136.07deg,
+    #DB6DAB 5.91%,
+    #F2968F 40.01%,
+    #F8AF7A 67.38%,
+    #F1CA96 98.11%
+  );
+}
+#course2 {
+  background: linear-gradient(
+    136.07deg,
+    #A1E8F2 5.91%,
+    #89AFE2 40.01%,
+    #B88CE2 67.38%,
+    #EAA3BF 98.11%
+  );
+}
+#course3 {
+  background: linear-gradient(
+    147.63deg,
+    #FFC8DD 5.6%,
+    #FAADCB 36.34%,
+    #BDE0FE 83.26%
+  );
+}
+/* div#featured,
+div.card-2.card {
+  width: 350px;
+  margin: 18px;
+}
+@media screen and (max-width: 780px) {
+  div.card-2.card,
+  div#featured {
+    width: 276px;
+    margin: 9px;
+  }
+} */
+p#course-name {
+  font-size: 26px;
+}
+
+/* SIDEBAR GRADIENT */
+nav.sidebar.collapse {
+  background: linear-gradient(180deg, #826EDB 0%, #7CCDFF 100%);
+}
+
+/* DASHBOARD BCK-COLOR */
+#rightgradient {
+  background-color: #FFF2F2;
+}
+/* SEARCHBAR */
+.form-control {
+  border-color: transparent;
+}
+
+.input-group-text {
+  background-color: #ffffff00;
+}
+
+div.card-body.p-2 {
+  vertical-align: middle;
+}
+
+ul.navbar-nav.d-flex {
+  align-items: center;
+}
+
+/* FACT GENERATOR */
+.card {
+  border-radius: 1em;
+  border: transparent;
+  margin: 18px;
+}
+
+/* FLIPCARD */
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  /*   width: 450px;
+  height: 281px; */
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}

@@ -1,0 +1,251 @@
+label {
+  min-width: 150px;
+  align-items: center;
+}
+
+div.imgbox {
+  width: 1350px;
+  height: 635px;
+  background-image: url("https://cdn.glitch.com/8961db76-d826-4984-8c51-30f4d4164f0a%2FGroup%2010%20(2).png?v=1629658081695");
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+p2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  padding-inline: 120px;
+  display: block;
+}
+
+h3 {
+  font-color: #00294E;
+  font-family: "EB Garamond", serif;
+  font-style: bold;
+  font-size: 40px;
+}
+
+h1 {
+  font-color: #00294E;
+  font-family: "EB Garamond", serif;
+  font-style: bold;
+  font-size: 40px;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+  font-size: 22px;
+}
+
+h {
+  font-size: 45px;
+  font-family: "EB Garamond", serif;
+}
+
+.factgen {
+  background-color: #F7EBEF;
+  font-family: "Calibri";
+  font-size: 18px;
+  height: 50px;
+  width: 400px;
+  border-color: black;
+}
+
+p4 {
+  font-family: "Calibri";
+  font-size: 20px;
+}
+
+.programCards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.flip-card-one {
+  background-color: transparent;
+  width: 256px;
+  height: 252px;
+  border: 1px solid #f1f1f1;
+  border-radius: 18px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner-one {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  border-radius: 18px;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-one:hover .flip-card-inner-one {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front-one,
+.flip-card-back-one {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 18px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front-one {
+  background-color: #F3B78C;
+  border-radius: 18px;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back-one {
+  background-color: #F3B78C;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 18px;
+}
+
+/* Style the second card */
+.flip-card-two {
+  background-color: transparent;
+  width: 256px;
+  height: 252px;
+  border: 1px solid #f1f1f1;
+  border-radius: 18px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner-two {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 18px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-two:hover .flip-card-inner-two {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front-two,
+.flip-card-back-two {
+  position: absolute;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front-two {
+  background-color: #ffbf4d;
+  color: black;
+  border-radius: 18px;
+}
+
+/* Style the back side */
+.flip-card-back-two {
+  background-color: #C8A7E7;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 18px;
+}
+
+/* Style the third card */
+.flip-card-three {
+  background-color: transparent;
+  width: 256px;
+  height: 252px;
+  border: 1px solid #f1f1f1;
+  border-radius: 18px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner-three {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 18px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-three:hover .flip-card-inner-three {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front-three,
+.flip-card-back-three {
+  position: absolute;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front-three {
+  background-color: #ffbf4d;
+  color: black;
+  border-radius: 18px;
+}
+
+/* Style the back side */
+.flip-card-back-three {
+  background-color: #FAADCB;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 18px;
+}
+
+.img2 {
+  width: 80%;
+  height: auto;
+  margin-top: -40px;
+}
+
+div.padding {
+  padding-inline: 100px;
+}
+
+button {
+  margin-top: 20px;
+  background: #FFE2E2;
+  border: 1px solid #be5643;
+  box-shadow: 0 1px 2px rgb(15 15 15 / 10%);
+  color: white;
+  font-size: 14px;
+  line-height: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 500;
+  justify-content: center;
+  white-space: nowrap;
+  height: 36px;
+  border-radius: 3px;
+  align-items: center;
+  margin-left: 10px;
+}
